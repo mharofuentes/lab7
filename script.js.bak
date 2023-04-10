@@ -1,11 +1,11 @@
 function init(){
 //add your javascrip between these two lines of code
-  var button= document.getElementId ('enterybutton');
+  var button= document.getElementById ('enterybutton');
   function showmetext(){
-	  var textbook = document.getElementbId('enterybutton');
-	  document. getElementByIdId('textoutput').innerhtml = Textbook.value;
+	  var textbook = document.getElementById('enterybutton');
+	  document. getElementById('textoutput').innerHTML = textbook.value;
 	  alert("Mitzi Haro: " + textbook.value);
   }
-  button.addEventListener('click', showmetext);
+  button.addEventListener('click', showMeText);
   }
 window.addEventListener('load', init);
